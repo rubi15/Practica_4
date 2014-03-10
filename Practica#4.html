@@ -1,0 +1,61 @@
+$Producto1=20;
+$Producto2=20;
+$Producto3=20;
+$Producto4=10;
+$Producto5=3;
+
+$subtotal=($Producto1 + $Producto2 + $Producto3 + $Producto4 + $Producto5);
+$IVA= $subtotal * .16;
+$total= $subtotal + $IVA;
+
+?>
+
+   <html>
+     <body>
+
+        <table>
+
+<tr>
+<td>Producto1</td>
+<td><?php echo$Producto1;?></td>
+</tr>
+
+<tr>
+<td>Producto2</td>
+<td><?php echo$Producto2;?></td>
+</tr>
+
+<tr>
+<td>Producto3</td>
+<td><?php echo$Producto3;?></td>
+</tr>
+
+<tr>
+<td>Producto4</td>
+<td><?php echo$Producto4;?></td>
+</tr>
+
+<tr>
+<td>Producto5</td>
+<td><?php echo$Producto5;?></td>
+</tr>
+
+<tr>
+<td>subtotal</td>
+<td><?php echo$subtotal;?></td>
+</tr>
+
+<tr>
+<td>IVA</td>
+<td><?php echo$IVA;?></td>
+</tr>
+
+<tr>
+<td>total</td>
+<td><?php echo$total;?></td>
+</tr>
+
+ </table>
+
+  </body>
+     </html>
